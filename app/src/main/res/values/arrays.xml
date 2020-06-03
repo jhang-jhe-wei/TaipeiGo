@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="type_array">
+        <item>美食</item>
+        <item>景點</item>
+    </array>
+</resources>

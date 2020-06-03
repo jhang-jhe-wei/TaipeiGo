@@ -5,4 +5,5 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="gray_frame_color">#D9D9D9</color>
     <color name="blue_frame_color">#8FAADC</color>
+    <color name="green_frame_blue">#3E759D</color>
 </resources>

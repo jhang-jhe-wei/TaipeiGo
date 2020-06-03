@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="local_array">
+        <item>松山區</item>
+        <item>信義區</item>
+        <item>大安區</item>
+        <item>中山區</item>
+        <item>大同區</item>
+        <item>萬華區</item>
+        <item>文山區</item>
+        <item>南港區</item>
+        <item>內湖區</item>
+        <item>士林區</item>
+        <item>北投區</item>
+        <item>松山區</item>
+        <item>信義區</item>
+    </array>
+</resources>

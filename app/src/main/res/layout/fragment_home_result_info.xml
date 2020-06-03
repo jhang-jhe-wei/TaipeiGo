@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroup"
+    tools:context=".home_result_infoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/home_result_info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中正紀念堂"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045" />
+
+        <ImageView
+            android:id="@+id/home_result_info_image"
+            android:layout_width="206dp"
+            android:layout_height="140dp"
+            android:src="@drawable/zhongzheng_cks"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_result_info_name"
+            app:layout_constraintVertical_bias="0.049" />
+
+        <ImageButton
+            android:id="@+id/home_result_info_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_baseline_favorite_border_24"
+            app:layout_constraintBottom_toBottomOf="@+id/home_result_info_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/home_result_info_name"
+            app:layout_constraintTop_toTopOf="@+id/home_result_info_name"
+            app:layout_constraintVertical_bias="0.476" />
+
+        <TextView
+            android:id="@+id/home_result_info_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:isScrollContainer="true"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:maxLines="10"
+        android:text="中正紀念堂是為紀念已故前中華民國總統蔣中正而興建的建築，位於臺北市中正區，也是眾多紀念蔣中正的建築中規模最大者，落成以來成為臺北市及臺灣在國際上最著名地標與觀光景點之一。全區250,000平方公尺，主樓高76公尺，管理機關為「國立中正紀念堂管理處」。而園區廣場的南北側，另建有國家表演藝術中心國家兩廳院管理的國家戲劇院和國家音樂廳。園區廣場除了供民眾休憩外，也常是大型藝文活動的場地，常舉辦展覽；邦交國元首訪華歡迎儀式（軍禮）也在此舉行。園區主體建築及牌坊等以「臺灣民主紀念園區」之名義，被登錄為國定古蹟[1] ；園區及園區周邊以「中正紀念堂」之名義被登錄為文化景觀"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_result_info_image"
+            app:layout_constraintVertical_bias="0.142" />
+
+        <TextView
+            android:id="@+id/home_result_info_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_map_24"
+            android:text="臺北市中正區中山南路21號"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_result_info_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

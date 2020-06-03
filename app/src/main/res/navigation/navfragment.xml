@@ -10,4 +10,29 @@
         android:name="com.example.taipeigo.homeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.taipeigo.searchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="com.example.taipeigo.bookmarksFragment"
+        android:label="fragment_bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.taipeigo.accountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/home_resultFragment"
+        android:name="com.example.taipeigo.home_resultFragment"
+        android:label="fragment_home_result"
+        tools:layout="@layout/fragment_home_result" />
+    <fragment
+        android:id="@+id/home_result_infoFragment"
+        android:name="com.example.taipeigo.home_result_infoFragment"
+        android:label="fragment_home_result_info"
+        tools:layout="@layout/fragment_home_result_info" />
 </navigation>
