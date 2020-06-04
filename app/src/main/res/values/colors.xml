@@ -6,4 +6,5 @@
     <color name="gray_frame_color">#D9D9D9</color>
     <color name="blue_frame_color">#8FAADC</color>
     <color name="green_frame_blue">#3E759D</color>
+    <color name="radio_button_color">#DFF7F4</color>
 </resources>
